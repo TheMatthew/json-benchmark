@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JSON benchmark
+Bundle-SymbolicName: org.json.benchmark
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.json.benchmark
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.json.simple,
+ org.json.simple.parser
+Require-Bundle: org.json;bundle-version="1.0.0"
